@@ -1,0 +1,28 @@
+{
+  "name": "announcement-fetcher",
+  "version": "1.0.0",
+  "description": "get announcements from college website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2shraaf/announcement-fetcher.git"
+  },
+  "author": "Ahmed Ashraf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2shraaf/announcement-fetcher/issues"
+  },
+  "homepage": "https://github.com/2shraaf/announcement-fetcher#readme",
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest",
+    "mongoose"    : "latest",
+    "body-parser" : "latest",
+    "method-override" : "latest"        
+  }
+}
